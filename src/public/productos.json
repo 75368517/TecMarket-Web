@@ -1,0 +1,125 @@
+{
+    "status": "success",
+    "items": [
+        {
+            "id": 1,
+            "title": "Intel Core i7-11700F",
+            "price": 1515.92,
+            "image": "img/Intel_Core_i7-11700F.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador de escritorio de 8 núcleos de hasta 4.9 GHz",
+            "desc_larga": "Compatible con la serie Intel 500 y placas base basadas en chipset Intel 400 Intel Tecnología Turbo Boost Max 3.0 Intel Optane Memory Support Soporte PCIe Gen 4.0 Solución térmica incluida",
+            "category": "Procesador"
+        },
+        {
+            "id": 2,
+            "title": "Intel Core i5-11600K",
+            "price": 918.72,
+            "image": "img/Intel_Core_i5-11600K.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador de escritorio de 6 núcleos de hasta 4.9 GHz",
+            "desc_larga": "Compatible con la serie Intel 500 y placas base basadas en chipset Intel 400 Intel Tecnología Turbo Boost Max 3.0 Intel Optane Memory Support Soporte PCIe Gen 4.0 Solución térmica incluida",
+            "category": "Procesador"
+        },
+        {
+            "id": 3,
+            "title": "Intel Core i3-10105",
+            "price": 542.7,
+            "image": "img/Intel_Core_i3-10105.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador BX8070110105 Quad Core de 10ª generación",
+            "desc_larga": "Procesador de escritorio Intel Quad Core de 10ª generación. Velocidad del reloj Natrive 3,7 GHz, velocidad de overclocking 4,4 GHz caché L3 de 6 MB y 8 hilos de procesador. Modelo del controlador gráfico: UHD Graphics 630 64 bits MPU",
+            "category": "Procesador"
+        },
+        {
+            "id": 4,
+            "title": "AMD Ryzen 3 3100",
+            "price": 1236.15,
+            "image": "img/AMD_Ryzen_3_3100.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador de escritorio desbloqueado de 4 núcleos",
+            "desc_larga": "Los procesadores AMD Ryzen de tercera generación son los más avanzados del mundo en el segmento de juegos de PC de escritorio. Puede ofrecer un rendimiento suave de 100 fps en los juegos más populares del mundo, requiere tarjeta gráfica discreta. 4 núcleos y 8 hilos de procesamiento, junto con el silencioso refrigerador AMD Wraith Stealth",
+            "category": "Procesador"
+        },
+        {
+            "id": 5,
+            "title": "AMD Ryzen 5 3600",
+            "price": 1294.58,
+            "image": "img/AMD_Ryzen_5_3600.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador de escritorio desbloqueado de 6 núcleos",
+            "desc_larga": "El procesador más avanzado del mundo en el segmento de juegos de PC de sobremesa. Puede ofrecer un rendimiento ultrarrápido de 100 FPS en los juegos más populares del mundo. 6 núcleos y 12 hilos de procesamiento empaquetados con el silencioso enfriador AMD Wraith Stealth temperatura máxima 203.0 °F",
+            "category": "Procesador"
+        },
+        {
+            "id": 6,
+            "title": "AMD Ryzen 7 3700X",
+            "price": 1373.97,
+            "image": "img/AMD_Ryzen_7_3700X.jpg",
+            "marca": "INTEL",
+            "desc_corta": "Procesador de escritorio desbloqueado de 16 hilos",
+            "desc_larga": "El procesador más avanzado del mundo en el segmento de juegos de PC de escritorio. Puede ofrecer un rendimiento ultrarrápido de más de 100 FPS en los juegos más populares del mundo. 8 núcleos y 16 hilos de procesamiento incluidos con el enfriador AMD Wraith Prism con soporte LED controlado por color",
+            "category": "Procesador"
+        },
+        {
+            "id": 7,
+            "title": "Corsair Vengeance LPX 16GB",
+            "price": 313.17,
+            "image": "img/Corsair_Vengeance_LPX_16GB_(2x8GB).jpg",
+            "marca": "CORSAIR",
+            "desc_corta": "Corsair Vengeance LPX 16GB (2x8GB) DDR4",
+            "desc_larga": "Vengeance LPX memoria es diseñado para overclocking de alto rendimiento de de calor, fabricado en aluminio puro para una disipación térmica más rápida, y la eight-layer PCB ayuda a gestionar calor y proporciona una excelente capacidad de overclocking",
+            "category": "Memoria"
+        },
+        {
+            "id": 8,
+            "title": "Corsair Vengeance Pro 32GB",
+            "price": 751.67,
+            "image": "img/Corsair_Vengeance_RGB_Pro_32GB_(4x8GB).jpg",
+            "marca": "CORSAIR",
+            "desc_corta": "Corsair Vengeance RGB Pro 32GB (4x8GB)",
+            "desc_larga": "La memoria DDR4 de alto rendimiento ilumina tu sistema con una iluminación viva y animada de diez LED RGB ultrabrillantes y direccionables individualmente por módulo. Toma el control con el software CORSAIR iCUE y sincroniza la iluminación en todos tus productos compatibles con CORSAIR iCUE, incluyendo memoria, ventiladores, refrigeradores, teclados y mucho más.",
+            "category": "Memoria"
+        },
+        {
+            "id": 9,
+            "title": "Corsair iCUE 4000X RGB",
+            "price": 563.74,
+            "image": "img/Corsair_iCUE_4000X_RGB.jpg",
+            "marca": "CORSAIR",
+            "desc_corta": "Corsair iCUE 4000X RGB - Gabinete ATX",
+            "desc_larga": "Combina un elegante cristal templado, iluminación RGB personalizable, gestión de cables innovadora y flujo de aire concentrado, elige el 4000X RGB para una computadora de alto rendimiento único. Muestra tus componentes e iluminación RGB con paneles laterales y frontales de cristal templado, construidos con canales de ventilación frontal dedicados para un amplio flujo de aire.",
+            "category": "Gabinete"
+        },
+        {
+            "id": 10,
+            "title": "Corsair iCUE 220T RGB",
+            "price": 509.04,
+            "image": "img/Corsair_iCUE_220T_RGB.jpg",
+            "marca": "CORSAIR",
+            "desc_corta": "Corsair iCUE 220T RGB flujo de aire",
+            "desc_larga": "Mejora la refrigeración de tu sistema con un alto flujo de aire completo con un panel frontal de rejilla de acero para una óptima entrada de aire. Ilumina tu PC con tres ventiladores Corsair SP120 RGB Pro incluidos, cada uno forrado con ocho LED dirigibles individualmente alrededor del centro (24 en total).",
+            "category": "Gabinete"
+        },
+        {
+            "id": 11,
+            "title": "Logitech G 610 Orion",
+            "price": 413.61,
+            "image": "img/Logitech_G_610_Orion.jpg",
+            "marca": "LOGITECH",
+            "desc_corta": "Logitech G 610 Orion - Teclado mecánico",
+            "desc_larga": "Teclado de juego impulsado por el rendimiento: teclado de tamaño completo que ofrece una experiencia de juego pura y fluida. Interruptores mecánicos Cherry MX rojos duraderos: los interruptores de bajo ruido ofrecen una pulsación más lineal para un rápido disparo",
+            "category": "Teclado"
+        },
+        {
+            "id": 12,
+            "title": "Corsair Series Watt Gold",
+            "price": 450.99,
+            "image": "img/Corsair_Series_Watt_Gold_80+.jpg",
+            "marca": "CORSAIR",
+            "desc_corta": "Corsair Series Watt Gold 80+ modular",
+            "desc_larga": "Certificado 80 Plus Gold para un menor consumo de energía, menos ruido y temperaturas más frías. Para una superficie de refrigeración máxima y rendimiento. Modo de ventilador cero RPM para un funcionamiento casi silencioso a cargas bajas a medias; temperatura nominal de salida continua: 122.0 °F.",
+            "category": "Fuente de poder"
+        }
+    ]
+}

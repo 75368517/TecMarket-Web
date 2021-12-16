@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%=title%>
+    </title>
+    <%- include ('partials/head.html')%>
+</head>
+
+<body class="bg-success">
+    <!-- nav -->
+    <%- include ('partials/navigation.html')%>
+
+    <!-- banner -->
+    <section>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Banner1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Banner2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/Banner3.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    <!-- banner -->      
+      
+      <!-- Start Marcas of The Month -->
+      <div class="text-light">
+      <section class="container">
+        <div class="row text-center mt-5 mb-4">
+            <div class="col-lg-6 mx-auto">
+                <h1 class="h1">Nuestras marcas destacadas</h1>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-6 col-md-6 col-lg-3 mt-3">
+                <img src="img/Intel_Logo.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">INTEL</h5>
+                <!-- <p class="text-center"><a class="btn btn-success">Ver más</a></p> -->
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-3">
+                <img src="img/AMD_Logo.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">AMD</h2>
+                <!-- <p class="text-center"><a class="btn btn-success">Ver más</a></p> -->
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-3">
+                <img src="img/Corsair_Logo.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">CORSAIR</h2>
+                <!-- <p class="text-center"><a class="btn btn-success">Ver más</a></p> -->
+            </div>
+            <div class="col-6 col-md-6 col-lg-3 mt-3">
+              <img src="img/Logitech_Logo.jpg" class="rounded-circle img-fluid border"></a>
+              <h2 class="h5 text-center mt-3 mb-3">LOGITECH</h2>
+              <!-- <p class="text-center"><a class="btn btn-success">Ver más</a></p> -->
+          </div>
+        </div>
+      </section>
+      </div>
+      <!-- End Categories of The Month -->
+      
+      <!-- Inicio Banner promociones -->
+      <section class="bg-light">
+          <div class="col-lg-6 pt-3 mb-4">
+            <h1 class="container h1 text-dark">¡Aprovecha nuestras promociones!</h1>
+      </div>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="/productos-listado"><img src="img/Bannelogi.jpeg" class="d-block w-100" alt="..."></a>
+          </div>
+        </div>
+      </div>
+      </section>
+      <!--Fin Banner promociones -->
+
+    <!-- carrito -->
+    <%- include ('partials/carrito.html')%>
+    <!-- footer -->
+    <%- include ('partials/footer.html')%>
+</body>
+</html>
