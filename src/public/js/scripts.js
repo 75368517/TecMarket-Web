@@ -142,16 +142,16 @@ class UI {
 		</div>
 		<div>
 			<span class="increase" data-id=${id}>
-				<i class="bx bxs-up-arrow"></i>
+			<i class="fas fa-sort-up"></i>
 			</span>
 			<p class="item__cantidad">1</p>
 			<span class="decrease" data-id=${id}>
-				<i class="bx bxs-down-arrow"></i>
+			<i class="fas fa-sort-down"></i>
 			</span>
 		</div>
 		<div>
 			<span class="remove__item" data-id=${id}>
-				<i class="bx bx-trash"></i>
+			<i class="fas fa-times-circle"></i>
 			</span>
 		</div>
 		`
