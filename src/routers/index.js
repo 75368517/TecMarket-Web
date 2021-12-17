@@ -3,7 +3,7 @@ const router = express.Router();
 
 
 router.get('/',(req, res) => {
-    res.render('index.html', { title: 'TecMarket - Home' });
+    res.render('index.html', { title: 'TecMarket - Home útima versión' });
 });
 
 router.get('/nosotros',(req, res) => {
